@@ -16,6 +16,7 @@ brew_cask_apps:
   - bettertouchtool
   - google-cloud-sdk
 brew_packages:
+  - awscli
   - docker-compose
   - git
   - git-lfs
