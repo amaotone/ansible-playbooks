@@ -15,7 +15,11 @@ brew_cask_apps:
   - spark
   - bettertouchtool
   - google-cloud-sdk
+  - cheatsheet
+  - skim
+  - hyperswitch
 brew_packages:
+  - xonsh
   - awscli
   - docker-compose
   - git
