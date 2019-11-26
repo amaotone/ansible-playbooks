@@ -13,6 +13,8 @@ brew_cask_apps:
   - karabiner-elements
   - skitch
   - spark
+  - bettertouchtool
+  - google-cloud-sdk
 brew_packages:
   - docker-compose
   - git
