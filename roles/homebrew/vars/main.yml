@@ -12,6 +12,7 @@ brew_cask_apps:
   - bitwarden
   - karabiner-elements
   - skitch
+  - spark
 brew_packages:
   - docker-compose
   - git
