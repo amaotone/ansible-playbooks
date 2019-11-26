@@ -1,0 +1,34 @@
+brew_taps:
+  - homebrew/core
+brew_cask_apps:
+  - alfred
+  - docker
+  - google-chrome
+  - google-japanese-ime
+  - iterm2
+  - visual-studio-code
+  - slack
+  - notion
+  - bitwarden
+  - karabiner-elements
+  - skitch
+brew_packages:
+  - docker-compose
+  - git
+  - git-lfs
+  - jq
+  - openssl
+  - tig
+  - tree
+  - wget
+  - zsh
+  - go
+  - python
+  - terraform
+  - htop
+  - reattach-to-user-namespace
+  - tmux
+  - grep
+  - neovim
+  - peco
+  - ghq
