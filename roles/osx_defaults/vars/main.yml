@@ -1,30 +1,30 @@
 apple_defaults:
-    # ドックを自動でしまう
+  # ドックを自動でしまう
   - domain: dock
     key: autohide
     type: bool
     value: true
-    # タッチでクリックを有効化
+  # タッチでクリックを有効化
   - domain: driver.AppleBluetoothMultitouch.trackpad
     key: Clicking
     type: int
     value: 1
-    # マウスの移動速度を最大に
-  - domain: trackpad.scaling 
+  # マウスの移動速度を最大に
+  - domain: trackpad.scaling
     key: scaling
     type: float
     value: 15
-    # 隠しファイルを表示
+  # 隠しファイルを表示
   - domain: finder
     key: AppleShowAllFiles
     type: string
     value: "YES"
-    # 拡張子をすべて表示
+  # 拡張子をすべて表示
   - domain: NSGlobalDomain
     key: AppleShowAllExtensions
     type: bool
     value: true
-    # ネットワークドライブ/USBドライブ上で.DS_Storeを作成しない
+  # ネットワークドライブ/USBドライブ上で.DS_Storeを作成しない
   - domain: desktopservices
     key: DSDontWriteNetworkStores
     type: bool
@@ -33,32 +33,32 @@ apple_defaults:
     key: DSDontWriteUSBStores
     type: bool
     value: true
-    # バッテリの%を表示
+  # バッテリの%を表示
   - domain: menuextra.battery
     key: ShowPercent
     type: string
     value: "YES"
-    # 未確認のアプリケーションを実行する際のダイアログを無効化
+  # 未確認のアプリケーションを実行する際のダイアログを無効化
   - domain: LaunchServices
     key: LSQuarantine
     type: bool
     value: false
-    # クラッシュレポートを無効化
+  # クラッシュレポートを無効化
   - domain: CrashReporter
     key: DialogType
     type: string
     value: "none"
-    # スクショの影を消す
+  # スクショの影を消す
   - domain: screencapture
     key: disable-shadow
     type: bool
     value: true
-    # パスバーを表示
+  # パスバーを表示
   - domain: finder
     key: ShowPathbar
     type: bool
     value: true
-    # ステータスバーを表示
+  # ステータスバーを表示
   - domain: finder
     key: ShowStatusBar
     type: bool

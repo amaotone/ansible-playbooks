@@ -1,5 +1,6 @@
 brew_taps:
   - homebrew/core
+  - homebrew/cask-fonts
 brew_cask_apps:
   - alfred
   - docker
@@ -12,24 +13,32 @@ brew_cask_apps:
   - bitwarden
   - karabiner-elements
   - skitch
-  - spark
   - bettertouchtool
   - google-cloud-sdk
   - cheatsheet
   - skim
   - hyperswitch
+  - font-fira-code
+  # - pycharm
 brew_packages:
-  - xonsh
+  - bash
+  - zsh
+  - xonsh  # pythonのシェル
+  - python3
+  - boost
+  - coreutils  # GNUコマンド群
   - awscli
   - docker-compose
   - git
   - git-lfs
+  - tig  # gitの拡張
+  - hub  # gitの拡張
+  - gibo  # gitignore作成
   - jq
   - openssl
-  - tig
   - tree
   - wget
-  - zsh
+  - curl
   - go
   - python
   - terraform
@@ -40,3 +49,10 @@ brew_packages:
   - neovim
   - peco
   - ghq
+  - hadolint  # Dockerfileのlinter
+  - node
+  - bat  # すごいcat
+  - direnv
+  - neovim
+  - nkf  # 文字コード変換
+  - imagemagick  # 画像変換
